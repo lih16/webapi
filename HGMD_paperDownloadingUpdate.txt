@@ -1,0 +1,46 @@
+
+Oct 16, 1686 papers were downloaded.  176 papers (one day) were downloaded. 5 papers were downloaded by PMC API and 171 papers were downloaded from our java code.
+
+at /sc/orga/projects/AILUN/fulltext_PDF/HGMD_DMpapers
+
+The Plan on HGMD papers downloading:
+
+ Oct. 17-18, I would be working on the downloading java code and try to fix connection reset and access issue.
+ When the code works fine, we plan to download 200 papers per day.  
+
+ Oct. Worked on Java code. 
+
+
+ Oct. 18, 2017
+ --------------------------------------------------------------------------------------------------------------------
+        47242 papes  HGMD (TAG='DM') (total)                         File: HGMDMDpid.txt
+        8616 papers Downloaded before Aug (2017)                     File: HGMDDMdownloadedbeforeAUGpmid.txt
+        38630 papers need to be downloaded                           File: HGMDafterAUGpmid.txt
+
+        We have downloaded 6185 papers since AUG (2017).             File: DownloadedsinceAUGpmid.txt
+        32445 (= 38630 - 6185) papers are not downloaded yet.                
+--------------------------------------------------------------------------------------------------------------------
+
+Oct. 18, 2017
+        We have downloaded 6310 papers. Today I downloaded 125 files around 4.5 hours. 
+        All the pdf files are in minerva at /sc/orga/projects/AILUN/fulltext_PDF/HGMD_DMpapers
+
+Oct. 19, 2017
+        We have downloaded 6572 papers. ( I removed some of papers that are not pdf format).
+        All the pdf files are in minerva at /sc/orga/projects/AILUN/fulltext_PDF/HGMD_DMpapers.
+
+Oct. 20, 2017
+        We have downloaded 6963 papers.
+        All the pdf files are in minerva at /sc/orga/projects/AILUN/fulltext_PDF/HGMD_DMpapers.
+
+Oct. 23, 2017
+        We have downloaded 8329 papers.
+        All the pdf files are in minerva at /sc/orga/projects/AILUN/fulltext_PDF/HGMD_DMpapers.
+
+Oct. 26, 2017
+       We have downloaded 9311 papers.
+       All the pdf files are in minerva at /sc/orga/projects/AILUN/fulltext_PDF/HGMD_DMpapers.
+
+Oct. 27, 2017
+       We have downloaded 9691 papers.
+       All the pdf files are in minerva at /sc/orga/projects/AILUN/fulltext_PDF/HGMD_DMpapers.
