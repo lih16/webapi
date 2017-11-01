@@ -2,8 +2,9 @@
 example #1. ID = 14435923,  Sep_DistinctID.txt
 
 
- content from Sep:
-1472 <ClinVarSet ID="14435923">
+content from Sep:
+
+    1472 <ClinVarSet ID="14435923">
     1473   <RecordStatus>current</RecordStatus>
     1474   <Title>NM_004992.3:c.(?_-226)_(*1_?)dup AND Mental retardation, X-linked, syndromic 13</Title>
     1475   <ReferenceClinVarAssertion DateCreated="2015-04-22" DateLastUpdated="2016-10-03" ID="401385">
@@ -13,35 +14,10 @@ example #1. ID = 14435923,  Sep_DistinctID.txt
     1479       <ReviewStatus>no assertion criteria provided</ReviewStatus>
     1480       <Description>Uncertain significance</Description>
     1481     </ClinicalSignificance>
-    1482     <Assertion Type="variation to disease"/>
-    1483     <ObservedIn>
-    1484       <Sample>
-    1485         <Origin>unknown</Origin>
-    1486         <Species TaxonomyId="9606">human</Species>
-    1487         <AffectedStatus>yes</AffectedStatus>
-    1488         <NumberTested>3</NumberTested>
-    1489       </Sample>
-    1490       <Method>
-    1491         <MethodType>curation</MethodType>
-    1492       </Method>
-    1493       <ObservedData ID="13755300">
-    1494         <Attribute integerValue="3" Type="VariantAlleles"/>
-    1495       </ObservedData>
-    1496       <ObservedData ID="13755300">
-    1497         <Attribute Type="FamilyHistory">Yes</Attribute>
-    1498       </ObservedData>
-    1499       <ObservedData ID="13755300">
-    1500         <Attribute Type="FamilyHistory">Yes</Attribute>
-    1501       </ObservedData>
-    1502       <ObservedData ID="13755300">
-    1503         <Attribute Type="FamilyHistory">Yes</Attribute>
-    1504       </ObservedData>
-    1505     </ObservedIn>
-    1506     <ObservedIn>
 
-    content from Oct:
+content from Oct:
 
- 24424759 <ClinVarSet ID="23002834">
+24424759 <ClinVarSet ID="23002834">
 24424760   <RecordStatus>current</RecordStatus>
 24424761   <Title>NM_004992.3:c.(?_-226)_(*1_?)dup AND Mental retardation, X-linked, syndromic 13</Title>
 24424762   <ReferenceClinVarAssertion DateCreated="2015-04-22" DateLastUpdated="2017-09-05" ID="401385">
@@ -51,31 +27,6 @@ example #1. ID = 14435923,  Sep_DistinctID.txt
 24424766       <ReviewStatus>no assertion criteria provided</ReviewStatus>
 24424767       <Description>Uncertain significance</Description>
 24424768     </ClinicalSignificance>
-24424769     <Assertion Type="variation to disease"/>
-24424770     <ObservedIn>
-24424771       <Sample>
-24424772         <Origin>unknown</Origin>
-24424773         <Species TaxonomyId="9606">human</Species>
-24424774         <AffectedStatus>yes</AffectedStatus>
-24424775         <NumberTested>3</NumberTested>
-24424776       </Sample>
-24424777       <Method>
-24424778         <MethodType>curation</MethodType>
-24424779       </Method>
-24424780       <ObservedData ID="13755300">
-24424781         <Attribute integerValue="3" Type="VariantAlleles"/>
-24424782       </ObservedData>
-24424783       <ObservedData ID="13755300">
-24424784         <Attribute Type="FamilyHistory">Yes</Attribute>
-24424785       </ObservedData>
-24424786       <ObservedData ID="13755300">
-24424787         <Attribute Type="FamilyHistory">Yes</Attribute>
-24424788       </ObservedData>
-24424789       <ObservedData ID="13755300">
-24424790         <Attribute Type="FamilyHistory">Yes</Attribute>
-24424791       </ObservedData>
-24424792     </ObservedIn>
-24424793     <ObservedIn>
 
 NOTE:  Title and the contents are same.
        1. They use different IDs.
@@ -85,7 +36,7 @@ NOTE:  Title and the contents are same.
 
 example #2. ID = 18559968,  Sep_DistinctID.txt
 
-   content from Sep:
+content from Sep:
 
    43913 <ClinVarSet ID="18559968">
    43914   <RecordStatus>current</RecordStatus>
@@ -97,23 +48,9 @@ example #2. ID = 18559968,  Sep_DistinctID.txt
    43920       <ReviewStatus>no assertion criteria provided</ReviewStatus>
    43921       <Description>Likely pathogenic</Description>
    43922     </ClinicalSignificance>
-   43923     <Assertion Type="variation to disease"/>
-   43924     <ObservedIn>
-   43925       <Sample>
-   43926         <Origin>germline</Origin>
-   43927         <Species TaxonomyId="9606">human</Species>
-   43928         <AffectedStatus>yes</AffectedStatus>
-   43929       </Sample>
-   43930       <Method>
-   43931         <MethodType>research</MethodType>
-   43932       </Method>
-   43933       <ObservedData ID="17763917">
-   43934         <Attribute Type="Description">not provided</Attribute>
-   43935       </ObservedData>
-   43936     </ObservedIn>
-   43937     <MeasureSet Type="Variant" ID="217890">
 
-   content from Oct:
+content from Oct:
+
 92938145 <ClinVarSet ID="23630547">
 92938146   <RecordStatus>current</RecordStatus>
 92938147   <Title>NC_000019.10:g.40854367_40886249del31883 AND APC-mutation negative familial colorectal cancer</Title>
@@ -124,24 +61,11 @@ example #2. ID = 18559968,  Sep_DistinctID.txt
 92938152       <ReviewStatus>criteria provided, single submitter</ReviewStatus>
 92938153       <Description>Likely pathogenic</Description>
 92938154     </ClinicalSignificance>
-92938155     <Assertion Type="variation to disease"/>
-92938156     <ObservedIn>
-92938157       <Sample>
-92938158         <Origin>germline</Origin>
-92938159         <Species TaxonomyId="9606">human</Species>
-92938160         <AffectedStatus>yes</AffectedStatus>
-92938161       </Sample>
-92938162       <Method>
-92938163         <MethodType>research</MethodType>
-92938164       </Method>
-92938165       <ObservedData ID="22359736">
-92938166         <Attribute Type="Description">not provided</Attribute>
-92938167       </ObservedData>
-92938168     </ObservedIn>
-92938169     <MeasureSet Type="Variant" ID="217890">
 
-   Except some of IDs and dates. The major part is exactly the same
-   new thing added in Oct
+Except some of IDs and dates, The major part is exactly the same.
+
+  new thing added in Oct
+
    <ClinVarAssertion ID="479268">
    <AttributeSet>
      <Attribute Type="AssertionMethod">Thean et al. (PLoS One. 2017)</Attribute>
@@ -164,8 +88,6 @@ content from Sep:
    55658       <ReviewStatus>no assertion criteria provided</ReviewStatus>
    55659       <Description>Pathogenic</Description>
    55660     </ClinicalSignificance>
-   55661     <Assertion Type="variation to disease"/>
-   55662     <ObservedIn>
 
  
 content from Oct:
@@ -180,8 +102,7 @@ content from Oct:
 19963938       <ReviewStatus>no assertion criteria provided</ReviewStatus>
 19963939       <Description>Pathogenic</Description>
 19963940     </ClinicalSignificance>
-19963941     <Assertion Type="variation to disease"/>
-19963942     <ObservedIn>
 
+ONLY some IDs and dates are different. Other parts are exactly same.
 
-ONLY some IDs are not same. 
+Note: the examples were randomly selected. 
